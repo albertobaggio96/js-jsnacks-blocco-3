@@ -4,8 +4,8 @@ const myNumbers= [];
 
 let sum= 0;
 
-for (let i = 0; sum < 50; i++){
-  promptElement= parseInt(prompt("inserisci un numero"))
+while (sum < 50){
+  const promptElement= parseInt(prompt("inserisci un numero"))
   myNumbers.push(promptElement);
   console.log(myNumbers);
   sum+= promptElement;
