@@ -11,7 +11,7 @@
 
  function getRandomNumber(minNum, maxNum){
   const random = Math.floor(Math.random() * (maxNum - minNum + 1) + minNum);
-  return random
+  return random;
  }
 
  while(newList.length < 10){
@@ -22,5 +22,5 @@
   }
  }
 
- console.log(newList, "length " + newList.length)
+ console.log(newList, "length " + newList.length);
 
